@@ -19,7 +19,7 @@ services:
   data-generator:
     build:
       context: .
-      dockerfile: Dockerfile_data-generator
+      dockerfile: data-generator.Dockerfile
     container_name: data-generator
     depends_on:
       postgres-server:
