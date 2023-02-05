@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 from argparse import ArgumentParser
 
 import mlflow
@@ -6,10 +7,12 @@ import pandas as pd
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
-os.environ["MLFLOW_S3_ENDPOINT_URL"] = "http://localhost:9000"
-os.environ["MLFLOW_TRACKING_URI"] = "http://localhost:5001"
-os.environ["AWS_ACCESS_KEY_ID"] = "zerohertz_minio"
-os.environ["AWS_SECRET_ACCESS_KEY"] = "asdf456!"
+load_dotenv()
+
+os.environ["MLFLOW_S3_ENDPOINT_URL"] = os.environ.get("MLFLOW_S3_ENDPOINT_URL")
+os.environ["MLFLOW_TRACKING_URI"] = os.environ.get("MLFLOW_TRACKING_URI")
+os.environ["AWS_ACCESS_KEY_ID"] = os.environ.get("MINIO_ROOT_USER")
+os.environ["AWS_SECRET_ACCESS_KEY"] = os.environ.get("MINIO_ROOT_PASSWORD")
 
 parser = ArgumentParser()
 parser.add_argument("--model-name", dest="model_name", type=str, default="sk_model")
