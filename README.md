@@ -6,6 +6,7 @@ Used data: [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.co
 2. [Model Development](https://zerohertz.github.io/mlops-model-development/)
 3. [Model Registry](https://zerohertz.github.io/mlops-model-registry/)
 4. [FastAPI](https://zerohertz.github.io/mlops-fastapi/)
+5. [API Serving](https://zerohertz.github.io/mlops-api-serving/)
 
 ---
 
