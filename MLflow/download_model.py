@@ -14,7 +14,6 @@ os.environ["AWS_SECRET_ACCESS_KEY"] = os.environ.get("MINIO_ROOT_PASSWORD")
 def download_model(args):
     mlflow.artifacts.download_artifacts(artifact_uri=f"runs:/{args.run_id}/{args.model_name}", dst_path=".")
 
-
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--model-name", dest="model_name", type=str, default="sk_model")
