@@ -2,12 +2,12 @@
 
 Used data: [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
-1. [Database](https://zerohertz.github.io/mlops-database/)
-2. [Model Development](https://zerohertz.github.io/mlops-model-development/)
-3. [Model Registry](https://zerohertz.github.io/mlops-model-registry/)
-4. [FastAPI](https://zerohertz.github.io/mlops-fastapi/)
-5. [API Serving](https://zerohertz.github.io/mlops-api-serving/)
-6. [Kafka](https://zerohertz.github.io/mlops-kafka/)
+1. [Database](https://zerohertz.github.io/mlops-for-mle-database/)
+2. [Model Development](https://zerohertz.github.io/mlops-for-mle-model-development/)
+3. [Model Registry](https://zerohertz.github.io/mlops-for-mle-model-registry/)
+4. [FastAPI](https://zerohertz.github.io/mlops-for-mle-fastapi/)
+5. [API Serving](https://zerohertz.github.io/mlops-for-mle-api-serving/)
+6. [Kafka](https://zerohertz.github.io/mlops-for-mle-kafka/)
 
 ---
 
