@@ -11,7 +11,7 @@ services:
       POSTGRES_PASSWORD: qwer123!
       POSTGRES_DB: Breast_Cancer
     healthcheck:
-      test: ["CMD", "pg_isready", "-q", "-U", "myuser", "-d", "mydatabase"]
+      test: ["CMD", "pg_isready", "-q", "-U", "zerohertz", "-d", "Breast_Cancer"]
       interval: 10s
       timeout: 5s
       retries: 5
