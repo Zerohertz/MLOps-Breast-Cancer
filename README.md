@@ -1,4 +1,4 @@
-<div align=center> <h1> :computer: MLOps 연습 :computer: </h1> </div>
+<div align=center> <h1> 💻 MLOps 연습 💻 </h1> </div>
 
 Used data: [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
